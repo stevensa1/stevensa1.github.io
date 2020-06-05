@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>TemanAngel</title>
+    <link href="../Styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="../script/main.css" type="text/css" />
+    <link rel="../stylesheet" href="style.css" type="text/css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
+</head>
+
+<body class="main">
+    <!-- NAVIGATION-->
+    <div class="navigationbar" id="NavigationBar">
+        <a href="index.html">Home</a>
+        <a href="pdf.html">Downloads</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="pdf.html#CDOWNLOAD">How-to-Download</a>
+        <a href="chat.php" class="active-button">Live Chat</a>
+        <a style="float:right" id="WAKTU"></a>
+        <script>
+            var WAKTU = new Date();
+            document.getElementById("WAKTU").innerHTML = WAKTU.toDateString();
+
+        </script>
+    </div>
+    <!-- END OF NAVIGATION-->
+    <div class="information downloads">
+        <br />
+        <br />
+        <h2>FAILED PROJECT</h2>
+        <h3>Unable to support PHP 7+</h3>
+        <br />
+        <br />
+        <h3>Alternative:</h3>
+        <br />
+        <a target="_blank" href="LMC.exe">LAN Messenger P2P Windows OS</a>
+        <br />
+        <a target="_blank" href="lmc_mac.dmg">LAN Messenger P2P MAC OS</a>
+    </div>
+</body>
+
+</html>

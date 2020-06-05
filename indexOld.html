@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>TemanAngel</title>
+    <link href="Styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="script/main.css" type="text/css" />
+    <link href="table.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="main">
+    <!-- NAVIGATION-->
+    <div class="navigationbar" id="NavigationBar">
+        <a href="index.html" class="active-button">Home</a>
+        <a href="pdf.html">Downloads</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="pdf.html#CDOWNLOAD">How-to-Download</a>
+        <a href="chat.php">Live Chat</a>
+        <a style="float:right" id="WAKTU"></a>
+        <script>
+            var WAKTU = new Date();
+            document.getElementById("WAKTU").innerHTML = WAKTU.toDateString();
+        </script>
+    </div>
+    <!-- END OF NAVIGATION-->
+    <div class="information">
+        <br />
+        <h2>JADWAL PAS KELAS XI MIPA 2019</h2>
+        <br />
+        <table class="TableMap table">
+            <tr>
+                <th>HARI/TANGGAL</th>
+                <th>JAM KE</th>
+                <th>MATA PELAJARAN</th>
+                <th>PDF Availability</th>
+            </tr>
+            <tr>
+                <td rowspan="2">SENIN<br />13/05/2019</td>
+                <td>1</td>
+                <td>Bahasa Indonesia</td>
+                <td><a class="pdfButtonNo" target="_blank">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Seni Budaya</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">RABU<br />15/05/2019</td>
+                <td>1</td>
+                <td>Bahasa Inggris</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sejarah Indonesia</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">KAMIS<br />16/05/2019</td>
+                <td>1</td>
+                <td>Matematika (W)</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pendidikan Agama Islam</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">JUM'AT<br />17/05/2019</td>
+                <td>1</td>
+                <td>Fisika</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Penjaskes</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">SENIN<br />20/05/2019</td>
+                <td>1</td>
+                <td>LM. Ekonomi</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Prakarya & KWRU</td>
+                <td><a target="_blank" class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">SELASA<br />21/05/2019</td>
+                <td>1</td>
+                <td>Biologi</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PPKn</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">RABU<br />22/05/2019</td>
+                <td>1</td>
+                <td>Kimia</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bahasa Jawa</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">KAMIS<br />23/05/2019</td>
+                <td>1</td>
+                <td>Matematika (M)</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>No Schedule Detected</td>
+                <td><a class="pdfButtonNo">NO</a></td>
+            </tr>
+        </table>
+        <p>Keterangan:
+            [Jam ke 1 = 07.30 - 09.00]
+            [Jam ke 2 = 09.30 - 11.00]
+        </p>
+        <h2>Exam will be scheduled at <h2 id="startdate"></h2></h2>
+        <script>
+            var Start = new Date();
+            document.getElementById("startdate").innerHTML = Start;
+        </script>
+        <p>N.B You may see some bugs as a feature</p>
+    </div>
+</body>
+
+</html>

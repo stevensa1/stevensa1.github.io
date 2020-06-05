@@ -1,0 +1,132 @@
+body {
+    margin: 0
+}
+.main {
+    background: white;
+    font-family: arial;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.information {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.navigationbar {
+    overflow: hidden;
+    background: #333;
+    width: 100%;
+    top: 0;
+    position: fixed;
+
+}
+
+.navigationbar a {
+    float: left;
+    display: block;
+    color: white;
+    cursor: pointer;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.navigationbar a:hover {
+    background: white;
+    color: #ddd;
+    transition: 0.4s;
+    color: black;
+}
+
+.active-button {
+    background: black;
+}
+
+.calculator-main {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    border: 10px solid #00000082;
+    border-radius: 25px;
+}
+
+.textview {
+    width: 215px;
+    height: 30px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    background: #ffffffab;
+    cursor: default;
+    background-color: #00000078;
+    color: white;
+}
+
+.downloads {
+    align-self: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.downloads a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 20px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.downloads a:hover {
+    background-color: #ddd;
+    transition: 0.5s;
+    color: black;
+}
+
+.notice {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+.notice:hover {
+    transition: 0.5s;
+    color: #ddd;
+}
+
+.TableMap {
+    margin-left: 28%;
+}
+
+.pdfButtonNo {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pdfButtonReady {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
