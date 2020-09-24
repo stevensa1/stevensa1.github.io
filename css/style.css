@@ -29,15 +29,15 @@
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
           transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 4s ease-in forwards infinite;
-          animation: cube 4s ease-in forwards infinite;
+  -webkit-animation: cube 8s ease-in forwards infinite;
+          animation: cube 8s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
   border-color: #0051f4;
 }
 .cube:nth-child(2) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   left: 25vw;
   top: 40vh;
 }
