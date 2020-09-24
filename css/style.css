@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
   background-color: #ff8080;
-  position: relative;
+  position: absolute;
+  font-size: 50px;
   height: 100vh;
   overflow: hidden;
+  top: 60%;
+  left: 50%;
   font-family: 'Montserrat', sans-serif;
 }
 
