@@ -29,8 +29,8 @@
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
           transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 12s ease-in forwards infinite;
-          animation: cube 12s ease-in forwards infinite;
+  -webkit-animation: cube 4s ease-in forwards infinite;
+          animation: cube 4s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
   border-color: #0051f4;
