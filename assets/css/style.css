@@ -3,3 +3,10 @@
 /* Path: assets\css\style.css */
 
 @import "jekyll-theme-minimal";
+
+#profile_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
