@@ -2,4 +2,5 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: Steven's Portofolio
+title: Steven Soewignjo
+description: Steven Soewignjo's personal website. I am a statistics major student at the Universitas Airlangga. I am interested in data analyst, machine learning, and data science.
