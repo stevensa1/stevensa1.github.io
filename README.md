@@ -3,6 +3,7 @@
 ## Data Visualization using Python
 Ini contoh visualisasi data dengan menggunakan bahasa Python.
 
+![[](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](www.google.com)
 
 ---
 ## Use-Case of 
