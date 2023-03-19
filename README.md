@@ -13,8 +13,8 @@ Changes.
 
 # Resources bahan
 ---
-[Referensi Github Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Referensi Github Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank" rel="noopener"}
 
-[Referensi Tombol Shield](https://shields.io/#your-badge)
+[Referensi Tombol Shield](https://shields.io/#your-badge){:target="_blank" rel="noopener"}
 
-[Referensi Logo Icon](https://simpleicons.org/)
+[Referensi Logo Icon](https://simpleicons.org/){:target="_blank" rel="noopener"}
