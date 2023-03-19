@@ -20,7 +20,7 @@ Berikut adalah diagram untuk cara kerja sistem rekomendasi pada *online shop*.
 ![](./assets/img/usecase%20sistem%20rekomendasi.png)
 
 
-[![](https://img.shields.io/badge/View_PDF-Download-red?logo=adobeacrobatreader&style=flat-square)](./assignments/pdf/Topik%201%202%20-%20Steven%20Soewignjo.pdf){:target="_blank" rel="noopener"}
+[![](https://img.shields.io/badge/Adobe_PDF-Download-red?logo=adobeacrobatreader&style=flat-square)](./assignments/pdf/Topik%201%202%20-%20Steven%20Soewignjo.pdf){:target="_blank" rel="noopener"}
 
 # Resources bahan
 ---
