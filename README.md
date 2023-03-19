@@ -18,7 +18,25 @@ Sistem rekomendasi sangat diperlukan oleh pelaku aplikasi *online shop* untuk me
 
 Berikut adalah diagram untuk cara kerja sistem rekomendasi pada *online shop*.
 ![](./assets/img/usecase%20sistem%20rekomendasi.png)
+<details>
+<summary>1. Tahap Pengumpulan Data</summary>
+...
+</details>
 
+<details>
+<summary>2. Tahap Pemrosesan Data</summary>
+...
+</details>
+
+<details>
+<summary>3. Pembuatan Model Rekomendasi</summary>
+...
+</details>
+
+<details>
+<summary>4. Penyajian</summary>
+...
+</details>
 
 [![](https://img.shields.io/badge/Adobe_PDF-Download-red?logo=adobeacrobatreader&style=flat-square)](./assignments/pdf/Topik%201%202%20-%20Steven%20Soewignjo.pdf){:target="_blank" rel="noopener"}
 
