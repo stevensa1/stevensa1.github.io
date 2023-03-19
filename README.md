@@ -3,12 +3,11 @@
 ## Data Visualization using Python
 Ini contoh visualisasi data dengan menggunakan bahasa Python.
 
-[![](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub&?style=flat-square)](https://www.google.com)
 
 ---
 ## Use-Case of 
 Ini adalah portofolio saya eheheh.
-
+[![](https://img.shields.io/badge/Google_Colab-Run_on_Google_Colab-orange?logo=GitHub&style=flat-square)](https://colab.research.google.com/drive/1tg87SZHDmgXRq0SZreiLZ3t13XWmBWBr#scrollTo=0S155rWmI1JA&line=4&uniqifier=1){:target="_blank" rel="noopener"}
 ---
 
 # Resources bahan
