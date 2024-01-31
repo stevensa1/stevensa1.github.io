@@ -172,6 +172,11 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
+.list-disc li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
 .sidebar,
 article {
     background: var(--eerie-black-2);
